@@ -37,7 +37,7 @@ struct TodoListView: View {
                     }
                 }
             }
-            .listStyle(PlainListStyle())
+            .listStyle(GroupedListStyle())
             .toolbar(content: {
                 Button(action: {
                     isPresent.toggle()
